@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto; 
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#resume {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: url('your-background-image-url.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#resume h1, #resume h2 {
+    color: gold; /* Golden color for headings */
+}
+
+#resume p {
+    color: white; /* White color for text */
+}
